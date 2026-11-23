@@ -196,4 +196,4 @@ The [`Dockerfile`](Dockerfile) is based on `node:19`. It installs the dependenci
 
 ## License
 
-No `LICENSE` file is present in the repository, so no license link is included. Add one before choosing a license.
+This project is licensed under the [MIT License](LICENSE).
