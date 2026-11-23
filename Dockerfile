@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y libuuid1 libgl1-mesa-dev
 
 # Install deps:
 COPY package*.json ./
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # Run migrations:
 COPY prisma ./prisma/
