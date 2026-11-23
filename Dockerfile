@@ -1,4 +1,4 @@
-FROM node:19
+FROM node:20-bookworm
 
 # Set workdir:
 WORKDIR /usr/src/app
@@ -18,4 +18,4 @@ RUN npx prisma generate
 COPY . .
 RUN npx prisma db push
 
-CMD npm run start
+CMD ["npm", "run", "start"]
