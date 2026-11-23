@@ -16,6 +16,6 @@ RUN npx prisma generate
 
 # Copy all files:
 COPY . .
-RUN npx prisma db push
 
-CMD ["npm", "run", "start"]
+# Push schema at runtime (needs DATABASE_URL), then start:
+CMD ["sh", "-c", "npx prisma db push && npm run start"]
