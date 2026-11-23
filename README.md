@@ -1,4 +1,4 @@
-# Among Us Discord Bot
+# Among Us IRL
 
 A Discord bot that runs games of Among Us on a Discord server.
 
@@ -6,7 +6,7 @@ The bot registers players, assigns roles, colors and tasks, and handles kills, r
 
 ## Table of contents
 
-- [Among Us Discord Bot](#among-us-discord-bot)
+- [Among Us IRL](#among-us-irl)
 	- [Table of contents](#table-of-contents)
 	- [How it works](#how-it-works)
 	- [Tech stack](#tech-stack)
